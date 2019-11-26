@@ -9,8 +9,8 @@ makes use of Express, EJS and D3.js
 
 
 TODO:
-select large repos:
-	1) linux
+1. select large repos:
+	1) https://github.com/torvalds/linux
 	2) https://github.com/facebook/react
 	3) https://github.com/tensorflow/tensorflow
 	4) https://github.com/twbs/bootstrap
@@ -20,3 +20,11 @@ select large repos:
 	8) https://github.com/electron/electron
 	9) https://github.com/golang/go
    10) https://github.com/nodejs/node
+
+2. Gather top commitors data (curl https://api.github.com/repos/:user/:repo/stats/contributors -o file.json )
+3. Extract users repos ( "author": { ... "repos_url" : } )
+4. go to languages for each repo ( in repos in step 3., "languages_url": ...)
+5. Get stats and visualise 
+	5a. Both # of languages p/person
+	5b. Most common language vs. largest language used on main project (language specialists working on these repos?)
+	5c. 5b on a per language basis, which have more variety vs which requires specialists.
