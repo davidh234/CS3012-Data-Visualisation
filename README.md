@@ -5,7 +5,7 @@ Using NodeJS to run the project. Currently just accessing the Github API getting
 run using 'node testAPI.js' with nodeJS.  
 
 
-makes use of Express, EJS and D3.js
+makes use of Node.js, Express, EJS and D3.js
 
 
 TODO:
