@@ -2,7 +2,7 @@ const express = require('express')
 var github = require('octonode');
 const app = express()
 const port = 3000
-var client = github.client('b24c740b99170487d41248539a4f69b014fb6266');
+var client = github.client('d52e6b70754ebc3a1659cca2cc3edb08abc41b6d');
 
 var linuxRepo = client.repo('torvalds/linux');
 //var reactRepo = client.repo('facebook/react');
@@ -28,13 +28,13 @@ function extractContributorRepos(body) {
 	for (var i = 0; i < body.length; i++) {
 		var repo = body[i].author.repos_url;
 		//make call to this repo
-		console.log(repo);
+		//console.log(repo);
 		var name = parseRepoURL(repo);
 		//need to get each repo name 
 
 		var user = client.user(name);
 
-		user.repos((errors, body, headers) => {getLanguages(body);});
+		user.repos((errors, body, headers) => {getLanguages(name, body);});
 		//= currentRepo.languages(callback);
 		//var languages = currentRepo.languages((errors, body, headers) => { });
 
@@ -51,10 +51,17 @@ function parseRepoURL(repoURL) {
 }
 
 //given a users public repositories, get the languages for each
-function getLanguages(repoInfo) {
+function getLanguages(name, repoInfo) {
 	for (var i = 0; i <repoInfo.length; i++) {
 		if(repoInfo[i] !== undefined) {
-			console.log(repoInfo[i].languages_url);
+			//console.log(repoInfo[i].full_name);
+			var userRepo = client.repo(repoInfo[i].full_name);
+			var languages = userRepo.languages((errors, body, headers) => {printLanguages(body);});
 		}
 	}
+}
+
+//this console log prints the breakdown of languages for each language
+function printLanguages(body) {
+	console.log(body);
 }
