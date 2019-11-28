@@ -1,0 +1,381 @@
+{
+    "repository_languages": [],
+    "contributors_languages": [
+        {
+            "language": "C",
+            "value": 209694
+        },
+        {
+            "language": "Makefile",
+            "value": 1916
+        },
+        {
+            "language": "C",
+            "value": 522096
+        },
+        {
+            "language": "Shell",
+            "value": 40873
+        },
+        {
+            "language": "M4",
+            "value": 10487
+        },
+        {
+            "language": "Makefile",
+            "value": 9457
+        },
+        {
+            "language": "Batchfile",
+            "value": 246
+        },
+        {
+            "language": "C",
+            "value": 794130
+        },
+        {
+            "language": "Lua",
+            "value": 308397
+        },
+        {
+            "language": "HTML",
+            "value": 285074
+        },
+        {
+            "language": "Makefile",
+            "value": 19519
+        },
+        {
+            "language": "C++",
+            "value": 19351
+        },
+        {
+            "language": "Roff",
+            "value": 7236
+        },
+        {
+            "language": "Batchfile",
+            "value": 1070
+        },
+        {
+            "language": "C",
+            "value": 73389
+        },
+        {
+            "language": "Shell",
+            "value": 12669
+        },
+        {
+            "language": "M4",
+            "value": 7799
+        },
+        {
+            "language": "Makefile",
+            "value": 4532
+        },
+        {
+            "language": "Roff",
+            "value": 2616
+        },
+        {
+            "language": "Perl",
+            "value": 1900
+        },
+        {
+            "language": "C",
+            "value": 120042678
+        },
+        {
+            "language": "C++",
+            "value": 12630319
+        },
+        {
+            "language": "Makefile",
+            "value": 8225176
+        },
+        {
+            "language": "Assembly",
+            "value": 7530393
+        },
+        {
+            "language": "Roff",
+            "value": 6962830
+        },
+        {
+            "language": "GCC Machine Description",
+            "value": 6889463
+        },
+        {
+            "language": "Shell",
+            "value": 2520823
+        },
+        {
+            "language": "D",
+            "value": 1749951
+        },
+        {
+            "language": "Objective-C",
+            "value": 1727551
+        },
+        {
+            "language": "HTML",
+            "value": 1499215
+        },
+        {
+            "language": "TeX",
+            "value": 1220495
+        },
+        {
+            "language": "Yacc",
+            "value": 1029993
+        },
+        {
+            "language": "Logos",
+            "value": 485832
+        },
+        {
+            "language": "Emacs Lisp",
+            "value": 388512
+        },
+        {
+            "language": "M4",
+            "value": 365630
+        },
+        {
+            "language": "Scheme",
+            "value": 301158
+        },
+        {
+            "language": "Scala",
+            "value": 236215
+        },
+        {
+            "language": "R",
+            "value": 210060
+        },
+        {
+            "language": "Perl",
+            "value": 130595
+        },
+        {
+            "language": "sed",
+            "value": 83536
+        },
+        {
+            "language": "Lex",
+            "value": 76730
+        },
+        {
+            "language": "DIGITAL Command Language",
+            "value": 69400
+        },
+        {
+            "language": "Scilab",
+            "value": 58450
+        },
+        {
+            "language": "GDB",
+            "value": 44395
+        },
+        {
+            "language": "xBase",
+            "value": 35963
+        },
+        {
+            "language": "Mathematica",
+            "value": 27166
+        },
+        {
+            "language": "Smarty",
+            "value": 23730
+        },
+        {
+            "language": "Awk",
+            "value": 19947
+        },
+        {
+            "language": "PicoLisp",
+            "value": 17298
+        },
+        {
+            "language": "Gnuplot",
+            "value": 13561
+        },
+        {
+            "language": "Jasmin",
+            "value": 13356
+        },
+        {
+            "language": "Fortran",
+            "value": 13080
+        },
+        {
+            "language": "MATLAB",
+            "value": 7738
+        },
+        {
+            "language": "Batchfile",
+            "value": 7224
+        },
+        {
+            "language": "EmberScript",
+            "value": 6642
+        },
+        {
+            "language": "Max",
+            "value": 6359
+        },
+        {
+            "language": "Common Lisp",
+            "value": 5984
+        },
+        {
+            "language": "SuperCollider",
+            "value": 4888
+        },
+        {
+            "language": "Python",
+            "value": 3935
+        },
+        {
+            "language": "Perl 6",
+            "value": 3910
+        },
+        {
+            "language": "JavaScript",
+            "value": 3515
+        },
+        {
+            "language": "GAP",
+            "value": 3040
+        },
+        {
+            "language": "Pascal",
+            "value": 2964
+        },
+        {
+            "language": "OCaml",
+            "value": 2652
+        },
+        {
+            "language": "CSS",
+            "value": 2003
+        },
+        {
+            "language": "Standard ML",
+            "value": 363
+        },
+        {
+            "language": "E",
+            "value": 339
+        },
+        {
+            "language": "Tcl",
+            "value": 187
+        },
+        {
+            "language": "Rebol",
+            "value": 184
+        },
+        {
+            "language": "Terra",
+            "value": 156
+        },
+        {
+            "language": "DTrace",
+            "value": 96
+        },
+        {
+            "language": "Java",
+            "value": 85
+        },
+        {
+            "language": "C",
+            "value": 18476
+        },
+        {
+            "language": "Makefile",
+            "value": 975
+        },
+        {
+            "language": "Perl",
+            "value": 888
+        },
+        {
+            "language": "Shell",
+            "value": 525
+        },
+        {
+            "language": "C",
+            "value": 65952061
+        },
+        {
+            "language": "C++",
+            "value": 2034037
+        },
+        {
+            "language": "RPC",
+            "value": 526572
+        },
+        {
+            "language": "Objective-C",
+            "value": 333813
+        },
+        {
+            "language": "Shell",
+            "value": 145666
+        },
+        {
+            "language": "Perl",
+            "value": 67967
+        },
+        {
+            "language": "Makefile",
+            "value": 23682
+        },
+        {
+            "language": "M4",
+            "value": 7799
+        },
+        {
+            "language": "Roff",
+            "value": 7645
+        },
+        {
+            "language": "Assembly",
+            "value": 5809
+        },
+        {
+            "language": "GLSL",
+            "value": 4325
+        },
+        {
+            "language": "C++",
+            "value": 354554
+        },
+        {
+            "language": "Groff",
+            "value": 18967
+        },
+        {
+            "language": "C",
+            "value": 14104
+        },
+        {
+            "language": "M4",
+            "value": 3324
+        },
+        {
+            "language": "Makefile",
+            "value": 1256
+        },
+        {
+            "language": "Shell",
+            "value": 26
+        },
+        {
+            "language": "Shell",
+            "value": 2016
+        }
+    ]
+}

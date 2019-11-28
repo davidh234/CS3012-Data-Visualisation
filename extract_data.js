@@ -1,7 +1,8 @@
-const express = require('express')
+const express = require('express');
 var github = require('octonode');
-const app = express()
-const port = 3000
+const fs = require('fs');
+const app = express();
+const port = 3000;
 var client = github.client('d52e6b70754ebc3a1659cca2cc3edb08abc41b6d');
 
 var linuxRepo = client.repo('torvalds/linux');
@@ -20,28 +21,21 @@ app.get('/linux', (req, res) => { linuxRepo.contributorsStats((errors, body, hea
 
 linuxRepo.contributorsStats((errors, body, headers) => extractContributorRepos(body));
 
-var x;
+client.limit(function (err, left, max, reset) {
+  console.log(left); // 4999
+  console.log(max);  // 5000
+  console.log(reset);  // 1372700873 (UTC epoch seconds)
+});
+
 
 //given the body of a repository stats page, will extract all top contributors repos list from this JSON
 function extractContributorRepos(body) {
-
-	for (var i = 0; i < body.length; i++) {
-		var repo = body[i].author.repos_url;
-		//make call to this repo
-		//console.log(repo);
+	//for (var i = 0; i < body.length; i++) {
+		var repo = body[2].author.repos_url;
 		var name = parseRepoURL(repo);
-		//need to get each repo name 
-
 		var user = client.user(name);
-
 		user.repos((errors, body, headers) => {getLanguages(name, body);});
-		//= currentRepo.languages(callback);
-		//var languages = currentRepo.languages((errors, body, headers) => { });
-
-		//get back "languages_url"
-
-		//make call to that URL
-	}
+	//}
 }
 
 //given the full API URL, extract the username
@@ -54,14 +48,31 @@ function parseRepoURL(repoURL) {
 function getLanguages(name, repoInfo) {
 	for (var i = 0; i <repoInfo.length; i++) {
 		if(repoInfo[i] !== undefined) {
-			//console.log(repoInfo[i].full_name);
+			console.log(repoInfo[i].full_name);
 			var userRepo = client.repo(repoInfo[i].full_name);
 			var languages = userRepo.languages((errors, body, headers) => {printLanguages(body);});
+			outputArray();
 		}
 	}
 }
 
+var languagesArray = {repository_languages:[],contributors_languages:[]};
 //this console log prints the breakdown of languages for each language
 function printLanguages(body) {
-	console.log(body);
+	if (body !== undefined) {
+		for (var key in body) {
+    		console.log("Key: " + key);
+    		console.log("Value: " + body[key]);
+    		languagesArray.contributors_languages.push({language:key, value:body[key]});
+		}
+		outputArray();
+	}
+}
+
+function outputArray() {
+	var toFile = JSON.stringify(languagesArray,null, 4);
+	fs.writeFile('Output.json', toFile, (err) => { 
+		// In case of a error throw err. 
+		if (err) throw err; 
+	}) 
 }
