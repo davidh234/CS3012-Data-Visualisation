@@ -1,37 +1,90 @@
 {
-    "repository_languages": [],
-    "contributors_languages": [
+    "repository_languages": [
         {
             "language": "C",
-            "value": 209694
+            "value": 791514845
+        },
+        {
+            "language": "C++",
+            "value": 10514348
+        },
+        {
+            "language": "Assembly",
+            "value": 9592421
+        },
+        {
+            "language": "Objective-C",
+            "value": 2207932
         },
         {
             "language": "Makefile",
-            "value": 1916
-        },
-        {
-            "language": "C",
-            "value": 522096
+            "value": 2071282
         },
         {
             "language": "Shell",
-            "value": 40873
+            "value": 1849629
+        },
+        {
+            "language": "Python",
+            "value": 1030611
+        },
+        {
+            "language": "Perl",
+            "value": 1021354
+        },
+        {
+            "language": "Roff",
+            "value": 130458
+        },
+        {
+            "language": "SmPL",
+            "value": 124940
+        },
+        {
+            "language": "Yacc",
+            "value": 121753
+        },
+        {
+            "language": "Lex",
+            "value": 60666
+        },
+        {
+            "language": "Awk",
+            "value": 38804
+        },
+        {
+            "language": "UnrealScript",
+            "value": 17732
+        },
+        {
+            "language": "Gherkin",
+            "value": 8295
         },
         {
             "language": "M4",
-            "value": 10487
+            "value": 3325
         },
         {
-            "language": "Makefile",
-            "value": 9457
+            "language": "Clojure",
+            "value": 1339
         },
         {
-            "language": "Batchfile",
-            "value": 246
+            "language": "XS",
+            "value": 1239
         },
+        {
+            "language": "Perl 6",
+            "value": 1157
+        },
+        {
+            "language": "sed",
+            "value": 379
+        }
+    ],
+    "contributors_languages": [
         {
             "language": "C",
-            "value": 794130
+            "value": 187626628
         },
         {
             "language": "Lua",
@@ -39,75 +92,39 @@
         },
         {
             "language": "HTML",
-            "value": 285074
+            "value": 1784289
         },
         {
             "language": "Makefile",
-            "value": 19519
+            "value": 8286513
         },
         {
             "language": "C++",
-            "value": 19351
+            "value": 15038261
         },
         {
             "language": "Roff",
-            "value": 7236
+            "value": 6980327
         },
         {
             "language": "Batchfile",
-            "value": 1070
-        },
-        {
-            "language": "C",
-            "value": 73389
-        },
-        {
-            "language": "Shell",
-            "value": 12669
-        },
-        {
-            "language": "M4",
-            "value": 7799
-        },
-        {
-            "language": "Makefile",
-            "value": 4532
-        },
-        {
-            "language": "Roff",
-            "value": 2616
+            "value": 8540
         },
         {
             "language": "Perl",
-            "value": 1900
+            "value": 201350
         },
         {
-            "language": "C",
-            "value": 120042678
-        },
-        {
-            "language": "C++",
-            "value": 12630319
-        },
-        {
-            "language": "Makefile",
-            "value": 8225176
+            "language": "Shell",
+            "value": 2722598
         },
         {
             "language": "Assembly",
-            "value": 7530393
-        },
-        {
-            "language": "Roff",
-            "value": 6962830
+            "value": 7536202
         },
         {
             "language": "GCC Machine Description",
             "value": 6889463
-        },
-        {
-            "language": "Shell",
-            "value": 2520823
         },
         {
             "language": "D",
@@ -115,11 +132,7 @@
         },
         {
             "language": "Objective-C",
-            "value": 1727551
-        },
-        {
-            "language": "HTML",
-            "value": 1499215
+            "value": 2061364
         },
         {
             "language": "TeX",
@@ -139,7 +152,7 @@
         },
         {
             "language": "M4",
-            "value": 365630
+            "value": 395039
         },
         {
             "language": "Scheme",
@@ -152,10 +165,6 @@
         {
             "language": "R",
             "value": 210060
-        },
-        {
-            "language": "Perl",
-            "value": 130595
         },
         {
             "language": "sed",
@@ -212,10 +221,6 @@
         {
             "language": "MATLAB",
             "value": 7738
-        },
-        {
-            "language": "Batchfile",
-            "value": 7224
         },
         {
             "language": "EmberScript",
@@ -290,92 +295,16 @@
             "value": 85
         },
         {
-            "language": "C",
-            "value": 18476
-        },
-        {
-            "language": "Makefile",
-            "value": 975
-        },
-        {
-            "language": "Perl",
-            "value": 888
-        },
-        {
-            "language": "Shell",
-            "value": 525
-        },
-        {
-            "language": "C",
-            "value": 65952061
-        },
-        {
-            "language": "C++",
-            "value": 2034037
+            "language": "Groff",
+            "value": 18967
         },
         {
             "language": "RPC",
             "value": 526572
         },
         {
-            "language": "Objective-C",
-            "value": 333813
-        },
-        {
-            "language": "Shell",
-            "value": 145666
-        },
-        {
-            "language": "Perl",
-            "value": 67967
-        },
-        {
-            "language": "Makefile",
-            "value": 23682
-        },
-        {
-            "language": "M4",
-            "value": 7799
-        },
-        {
-            "language": "Roff",
-            "value": 7645
-        },
-        {
-            "language": "Assembly",
-            "value": 5809
-        },
-        {
             "language": "GLSL",
             "value": 4325
-        },
-        {
-            "language": "C++",
-            "value": 354554
-        },
-        {
-            "language": "Groff",
-            "value": 18967
-        },
-        {
-            "language": "C",
-            "value": 14104
-        },
-        {
-            "language": "M4",
-            "value": 3324
-        },
-        {
-            "language": "Makefile",
-            "value": 1256
-        },
-        {
-            "language": "Shell",
-            "value": 26
-        },
-        {
-            "language": "Shell",
-            "value": 2016
         }
     ]
 }
