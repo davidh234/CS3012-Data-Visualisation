@@ -30,9 +30,6 @@ var nodeRepo = client.repo('nodejs/node');
 var vscodeRepo = client.repo('microsoft/vscode');
 
 
-app.get('/', (req, res) => res.render('index'))
-app.get('/linux', (req, res) => { vscodeRepo.contributorsStats((errors, body, headers) => res.send(body)) });
-
 getMainRepoLanguages();
 vscodeRepo.contributorsStats((errors, body, headers) => extractContributorRepos(body));
 
@@ -51,12 +48,12 @@ function addMainRepoLanguages(body) {
 
 //given the body of a repository stats page, will extract all top contributors repos list from this JSON
 function extractContributorRepos(body) {
-	//for (var i = 0; i < body.length; i++) {
-		var repo = body[2].author.repos_url;                                       //<-- need to work for each
+	for (var i = 0; i < body.length; i++) {
+		var repo = body[i].author.repos_url;                                       
 		var name = parseRepoURL(repo);
 		var user = client.user(name);
 		user.repos((errors, body, headers) => {getLanguages(name, body);});
-	//}
+	}
 }
 
 //given the full API URL, extract the username

@@ -15,11 +15,8 @@ app.use(express.static('data'));
 
 app.set('view engine', 'ejs');
 
-const fs = require('fs');
+app.get('/', (req, res) => res.render('index'));
 
-var JSONdata;
-
-fs.readFile('Output.json', "utf8", (err, data) => { JSONdata = data; console.log(JSONdata)});
 /*
 	All API data stored in /data/<file>.json
 */
