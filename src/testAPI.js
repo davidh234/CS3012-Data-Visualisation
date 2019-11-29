@@ -11,6 +11,4 @@ var ghrepo         = client.repo('davidh234/Software-Engineering');
 
 var x = ghrepo.commits(callback);
 
-function callback() {}
-
 var ghsearch = client.search();
