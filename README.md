@@ -60,23 +60,23 @@ I was surprised to find such a strong correlation between both the distribution 
 
 Interestingly, Linux appears to be best suited to 'C' specialists:
 
-![C results](https://github.com/davidh234/CS3012-Data-Visualisation/blob/master/src/views/images/results-linux.png)
+![C results](https://github.com/davidh234/CS3012-Data-Visualisation/blob/master/src/views/images/results-linux.PNG)
 
 React also seems to be best suited to specialists, this time in javascript:
 
-![React results](https://github.com/davidh234/CS3012-Data-Visualisation/blob/master/src/views/images/results-react.png)
+![React results](https://github.com/davidh234/CS3012-Data-Visualisation/blob/master/src/views/images/results-react.PNG)
 
 Node.js appears to be the most distributed of the five, which is reflected in the contributors repositories and therefore is suited more to 'generalists':
 
-![Node.js results](https://github.com/davidh234/CS3012-Data-Visualisation/blob/master/src/views/images/results-nodejs.png)
+![Node.js results](https://github.com/davidh234/CS3012-Data-Visualisation/blob/master/src/views/images/results-nodejs.PNG)
 
 Go is interesting because the language of choice for the contributors is actually C, not Go. This makes sense since Go is quite similar to C and was heavily influenced by C's design choices:
 
-![Go results](https://github.com/davidh234/CS3012-Data-Visualisation/blob/master/src/views/images/results-go.png)
+![Go results](https://github.com/davidh234/CS3012-Data-Visualisation/blob/master/src/views/images/results-go.PNG)
 
 Another interesting result is VS Code, which shows that contributors most use C#, despite it not being in the top languages used in the repository itself. Given C# is a Windows language and VS Code is built by Microsoft this isn't that surprising:
 
-![VS Code results](https://github.com/davidh234/CS3012-Data-Visualisation/blob/master/src/views/images/results-vscode.png)
+![VS Code results](https://github.com/davidh234/CS3012-Data-Visualisation/blob/master/src/views/images/results-vscode.PNG)
 
 
 ## Conclusion
