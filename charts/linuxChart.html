@@ -31,8 +31,8 @@
 <body>
   <div
    style="
-      top: 99;
-      left: 300;
+      top: 0;
+      left: 550;
       position: absolute;
       z-index: 1;
       visibility: show;">
@@ -40,8 +40,8 @@
 </div>
   <div
    style="
-      top: 99;
-      left: 1000;
+      top: 475;
+      left: 500;
       position: absolute;
       z-index: 1;
       visibility: show;">
@@ -53,7 +53,7 @@
 
 <script>
 // Set the dimensions of the canvas / graph
-var margin = {top: 30, right: 20, bottom: 100, left: 100},
+var margin = {top: 30, right: 20, bottom: 200, left: 100},
   width = 1000 - margin.left - margin.right,
   height = 500 - margin.top - margin.bottom;
 
@@ -79,7 +79,7 @@ var chart1 = d3.select("body")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 // Get the data
-d3.json("http://localhost:3000/", function(error, data) {
+d3.json("http://localhost:3000/api/linux", function(error, data) {
   data.repository_languages.forEach(function(d) {
     d.language = d.language;
     d.value = +d.value;
@@ -132,7 +132,7 @@ var chart2 = d3.select("body")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
     
 // Get the data
-d3.json("http://localhost:3000/", function(error, data) {
+d3.json("http://localhost:3000/api/linux", function(error, data) {
   data.contributors_languages.forEach(function(d) {
     d.language = d.language;
     d.value = +d.value;

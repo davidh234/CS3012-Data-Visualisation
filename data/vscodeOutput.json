@@ -1,0 +1,274 @@
+{
+    "repository_languages": [
+        {
+            "language": "TypeScript",
+            "value": 23588079
+        },
+        {
+            "language": "JavaScript",
+            "value": 947756
+        },
+        {
+            "language": "CSS",
+            "value": 445542
+        },
+        {
+            "language": "Inno Setup",
+            "value": 167328
+        },
+        {
+            "language": "HTML",
+            "value": 64790
+        },
+        {
+            "language": "Shell",
+            "value": 29403
+        },
+        {
+            "language": "Batchfile",
+            "value": 6797
+        },
+        {
+            "language": "PowerShell",
+            "value": 6440
+        },
+        {
+            "language": "Groovy",
+            "value": 3928
+        },
+        {
+            "language": "C++",
+            "value": 2602
+        },
+        {
+            "language": "Python",
+            "value": 2405
+        },
+        {
+            "language": "Makefile",
+            "value": 2145
+        },
+        {
+            "language": "Ruby",
+            "value": 1703
+        },
+        {
+            "language": "Objective-C",
+            "value": 1387
+        },
+        {
+            "language": "Objective-C++",
+            "value": 1387
+        },
+        {
+            "language": "Clojure",
+            "value": 1206
+        },
+        {
+            "language": "Perl 6",
+            "value": 1065
+        },
+        {
+            "language": "PHP",
+            "value": 998
+        },
+        {
+            "language": "Visual Basic",
+            "value": 893
+        },
+        {
+            "language": "Perl",
+            "value": 857
+        },
+        {
+            "language": "C",
+            "value": 818
+        },
+        {
+            "language": "Go",
+            "value": 652
+        },
+        {
+            "language": "F#",
+            "value": 634
+        },
+        {
+            "language": "Java",
+            "value": 599
+        },
+        {
+            "language": "CoffeeScript",
+            "value": 590
+        },
+        {
+            "language": "Rust",
+            "value": 532
+        },
+        {
+            "language": "C#",
+            "value": 488
+        },
+        {
+            "language": "Dockerfile",
+            "value": 425
+        },
+        {
+            "language": "R",
+            "value": 362
+        },
+        {
+            "language": "Roff",
+            "value": 351
+        },
+        {
+            "language": "ShaderLab",
+            "value": 330
+        },
+        {
+            "language": "Swift",
+            "value": 284
+        },
+        {
+            "language": "Lua",
+            "value": 252
+        },
+        {
+            "language": "HLSL",
+            "value": 184
+        },
+        {
+            "language": "Hack",
+            "value": 16
+        }
+    ],
+    "contributors_languages": [
+        {
+            "language": "F#",
+            "value": 724389
+        },
+        {
+            "language": "C#",
+            "value": 1086420
+        },
+        {
+            "language": "XSLT",
+            "value": 3710
+        },
+        {
+            "language": "C++",
+            "value": 44661710
+        },
+        {
+            "language": "Assembly",
+            "value": 207597
+        },
+        {
+            "language": "PowerShell",
+            "value": 65019
+        },
+        {
+            "language": "Batchfile",
+            "value": 156095
+        },
+        {
+            "language": "C",
+            "value": 7840002
+        },
+        {
+            "language": "Java",
+            "value": 279516
+        },
+        {
+            "language": "Groovy",
+            "value": 43936
+        },
+        {
+            "language": "Ruby",
+            "value": 4132
+        },
+        {
+            "language": "Shell",
+            "value": 120808
+        },
+        {
+            "language": "HTML",
+            "value": 346483
+        },
+        {
+            "language": "JavaScript",
+            "value": 61191396
+        },
+        {
+            "language": "Python",
+            "value": 327959
+        },
+        {
+            "language": "POV-Ray SDL",
+            "value": 395782
+        },
+        {
+            "language": "DTrace",
+            "value": 92970
+        },
+        {
+            "language": "Makefile",
+            "value": 115814
+        },
+        {
+            "language": "Roff",
+            "value": 185260
+        },
+        {
+            "language": "R",
+            "value": 12940
+        },
+        {
+            "language": "CMake",
+            "value": 76552
+        },
+        {
+            "language": "Yacc",
+            "value": 50632
+        },
+        {
+            "language": "Objective-C",
+            "value": 43892
+        },
+        {
+            "language": "Perl",
+            "value": 32952
+        },
+        {
+            "language": "CSS",
+            "value": 2013
+        },
+        {
+            "language": "TypeScript",
+            "value": 205878
+        },
+        {
+            "language": "PLpgSQL",
+            "value": 427831
+        },
+        {
+            "language": "Groff",
+            "value": 31317
+        },
+        {
+            "language": "M4",
+            "value": 24275
+        },
+        {
+            "language": "NSIS",
+            "value": 2860
+        },
+        {
+            "language": "Smalltalk",
+            "value": 73552
+        },
+        {
+            "language": "Inno Setup",
+            "value": 12220
+        }
+    ]
+}

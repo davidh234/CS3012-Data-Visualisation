@@ -28,3 +28,6 @@ TODO:
 	5a. Both # of languages p/person
 	5b. Most common language vs. largest language used on main project (language specialists working on these repos?)
 	5c. 5b on a per language basis, which have more variety vs which requires specialists.
+
+
+note: The value shown for each language is the number of bytes of code written in that language.

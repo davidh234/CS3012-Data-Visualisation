@@ -24,25 +24,21 @@ client.limit(function (err, left, max, reset) {
 
 
 var linuxRepo = client.repo('torvalds/linux');
-//var reactRepo = client.repo('facebook/react');
-//var tensorflowRepo = client.repo('tensorflow/tensorflow');
-//var bootstrapRepo = client.repo('twbs/bootstrap');
-//var vueRepo = client.repo('vuejs/vue');
-//var d3Repo = client.repo('d3/d3');
-//var vscodeRepo = client.repo('microsoft/vscode');
-//var electronRepo = client.repo('electron/electron');
-//var goRepo = client.repo('golang/go');
-//var nodeRepo = client.repo('nodejs/node');
+var reactRepo = client.repo('facebook/react');
+var goRepo = client.repo('golang/go');
+var nodeRepo = client.repo('nodejs/node');
+var vscodeRepo = client.repo('microsoft/vscode');
+
 
 app.get('/', (req, res) => res.render('index'))
-app.get('/linux', (req, res) => { linuxRepo.contributorsStats((errors, body, headers) => res.send(body)) });
+app.get('/linux', (req, res) => { vscodeRepo.contributorsStats((errors, body, headers) => res.send(body)) });
 
 getMainRepoLanguages();
-linuxRepo.contributorsStats((errors, body, headers) => extractContributorRepos(body));
+vscodeRepo.contributorsStats((errors, body, headers) => extractContributorRepos(body));
 
 
 function getMainRepoLanguages() {
-	linuxRepo.languages((errors, body, headers) => {addMainRepoLanguages(body);});
+	vscodeRepo.languages((errors, body, headers) => {addMainRepoLanguages(body);});
 }
 
 function addMainRepoLanguages(body) {
@@ -117,7 +113,7 @@ function mergeSameKeysinJSON() {
 function outputArray() {
 	var toFile = JSON.stringify(languagesArray,null, 4);
 	console.log(toFile);
-	fs.writeFile('Output.json', toFile, (err) => { 
+	fs.writeFile('vscodeOutput.json', toFile, (err) => { 
 		// In case of a error throw err. 
 		if (err) throw err; 
 	}) 

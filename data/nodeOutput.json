@@ -1,0 +1,238 @@
+{
+    "repository_languages": [
+        {
+            "language": "JavaScript",
+            "value": 8029822
+        },
+        {
+            "language": "C++",
+            "value": 4484839
+        },
+        {
+            "language": "Python",
+            "value": 2150763
+        },
+        {
+            "language": "C",
+            "value": 436358
+        },
+        {
+            "language": "HTML",
+            "value": 163390
+        },
+        {
+            "language": "Makefile",
+            "value": 46951
+        },
+        {
+            "language": "Batchfile",
+            "value": 39012
+        },
+        {
+            "language": "DTrace",
+            "value": 37661
+        },
+        {
+            "language": "Shell",
+            "value": 30895
+        },
+        {
+            "language": "Emacs Lisp",
+            "value": 14357
+        },
+        {
+            "language": "Perl",
+            "value": 11658
+        },
+        {
+            "language": "Roff",
+            "value": 10445
+        },
+        {
+            "language": "R",
+            "value": 6895
+        }
+    ],
+    "contributors_languages": [
+        {
+            "language": "Java",
+            "value": 183102545
+        },
+        {
+            "language": "Go",
+            "value": 44057754
+        },
+        {
+            "language": "Shell",
+            "value": 944656
+        },
+        {
+            "language": "Dockerfile",
+            "value": 12554
+        },
+        {
+            "language": "JavaScript",
+            "value": 14055612
+        },
+        {
+            "language": "HTML",
+            "value": 4936876
+        },
+        {
+            "language": "CSS",
+            "value": 2289113
+        },
+        {
+            "language": "XSLT",
+            "value": 7928895
+        },
+        {
+            "language": "XQuery",
+            "value": 452
+        },
+        {
+            "language": "FreeMarker",
+            "value": 39078
+        },
+        {
+            "language": "Groovy",
+            "value": 41674
+        },
+        {
+            "language": "Ruby",
+            "value": 29699
+        },
+        {
+            "language": "C++",
+            "value": 5398362
+        },
+        {
+            "language": "C",
+            "value": 2687018
+        },
+        {
+            "language": "Python",
+            "value": 2833829
+        },
+        {
+            "language": "CMake",
+            "value": 113993
+        },
+        {
+            "language": "Batchfile",
+            "value": 181126
+        },
+        {
+            "language": "TSQL",
+            "value": 30600
+        },
+        {
+            "language": "TypeScript",
+            "value": 357231
+        },
+        {
+            "language": "TeX",
+            "value": 19322
+        },
+        {
+            "language": "TLA",
+            "value": 14997
+        },
+        {
+            "language": "Roff",
+            "value": 19262
+        },
+        {
+            "language": "Makefile",
+            "value": 67321
+        },
+        {
+            "language": "Thrift",
+            "value": 131414
+        },
+        {
+            "language": "DTrace",
+            "value": 37661
+        },
+        {
+            "language": "Emacs Lisp",
+            "value": 14357
+        },
+        {
+            "language": "Perl",
+            "value": 49212
+        },
+        {
+            "language": "R",
+            "value": 6895
+        },
+        {
+            "language": "Kotlin",
+            "value": 166032
+        },
+        {
+            "language": "Scala",
+            "value": 17317309
+        },
+        {
+            "language": "Swift",
+            "value": 1396698
+        },
+        {
+            "language": "Assembly",
+            "value": 4325664
+        },
+        {
+            "language": "Logos",
+            "value": 1248
+        },
+        {
+            "language": "RPC",
+            "value": 1163
+        },
+        {
+            "language": "Awk",
+            "value": 450
+        },
+        {
+            "language": "Fortran",
+            "value": 394
+        },
+        {
+            "language": "AspectJ",
+            "value": 69964
+        },
+        {
+            "language": "RAML",
+            "value": 38085
+        },
+        {
+            "language": "ANTLR",
+            "value": 31940
+        },
+        {
+            "language": "SystemVerilog",
+            "value": 5465
+        },
+        {
+            "language": "NewLisp",
+            "value": 4473
+        },
+        {
+            "language": "Perl 6",
+            "value": 4446
+        },
+        {
+            "language": "Gherkin",
+            "value": 3552
+        },
+        {
+            "language": "Smarty",
+            "value": 1142
+        },
+        {
+            "language": "PLpgSQL",
+            "value": 625
+        }
+    ]
+}

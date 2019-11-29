@@ -1,0 +1,110 @@
+{
+    "repository_languages": [
+        {
+            "language": "JavaScript",
+            "value": 3746080
+        },
+        {
+            "language": "HTML",
+            "value": 112401
+        },
+        {
+            "language": "CSS",
+            "value": 54906
+        },
+        {
+            "language": "C++",
+            "value": 44278
+        },
+        {
+            "language": "TypeScript",
+            "value": 20252
+        },
+        {
+            "language": "CoffeeScript",
+            "value": 16089
+        },
+        {
+            "language": "C",
+            "value": 5225
+        },
+        {
+            "language": "Shell",
+            "value": 3914
+        },
+        {
+            "language": "Python",
+            "value": 259
+        },
+        {
+            "language": "Makefile",
+            "value": 189
+        }
+    ],
+    "contributors_languages": [
+        {
+            "language": "Clojure",
+            "value": 1044847
+        },
+        {
+            "language": "Java",
+            "value": 4855744
+        },
+        {
+            "language": "Shell",
+            "value": 18320
+        },
+        {
+            "language": "JavaScript",
+            "value": 64200995
+        },
+        {
+            "language": "HTML",
+            "value": 6760
+        },
+        {
+            "language": "CSS",
+            "value": 60953
+        },
+        {
+            "language": "Go",
+            "value": 52419
+        },
+        {
+            "language": "Python",
+            "value": 181583
+        },
+        {
+            "language": "Makefile",
+            "value": 3616
+        },
+        {
+            "language": "Emacs Lisp",
+            "value": 82239
+        },
+        {
+            "language": "Haskell",
+            "value": 4796
+        },
+        {
+            "language": "Lua",
+            "value": 4633
+        },
+        {
+            "language": "Vim script",
+            "value": 2291
+        },
+        {
+            "language": "Scheme",
+            "value": 717
+        },
+        {
+            "language": "YASnippet",
+            "value": 58
+        },
+        {
+            "language": "LiveScript",
+            "value": 6103
+        }
+    ]
+}

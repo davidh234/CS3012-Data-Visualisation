@@ -1,0 +1,78 @@
+{
+    "repository_languages": [
+        {
+            "language": "Go",
+            "value": 44351048
+        },
+        {
+            "language": "HTML",
+            "value": 2452123
+        },
+        {
+            "language": "Assembly",
+            "value": 2272642
+        },
+        {
+            "language": "C",
+            "value": 100535
+        },
+        {
+            "language": "Shell",
+            "value": 54662
+        },
+        {
+            "language": "Perl",
+            "value": 31351
+        },
+        {
+            "language": "JavaScript",
+            "value": 19836
+        },
+        {
+            "language": "Python",
+            "value": 15188
+        },
+        {
+            "language": "Batchfile",
+            "value": 7503
+        },
+        {
+            "language": "C++",
+            "value": 1283
+        },
+        {
+            "language": "Makefile",
+            "value": 748
+        },
+        {
+            "language": "Awk",
+            "value": 450
+        },
+        {
+            "language": "Fortran",
+            "value": 394
+        }
+    ],
+    "contributors_languages": [
+        {
+            "language": "Go",
+            "value": 1387779
+        },
+        {
+            "language": "C",
+            "value": 71760
+        },
+        {
+            "language": "Shell",
+            "value": 1910
+        },
+        {
+            "language": "Assembly",
+            "value": 1527
+        },
+        {
+            "language": "Makefile",
+            "value": 452
+        }
+    ]
+}
