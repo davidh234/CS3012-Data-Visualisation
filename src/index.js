@@ -37,4 +37,13 @@ app.get('/node', (req, res) => res.sendFile("C:/Users/david/Documents/College Wo
 app.get('/vscode', (req, res) => res.sendFile("C:/Users/david/Documents/College Work/Third Year/Software Engineering/visualisation/charts/vscodeChart.html"));
 
 
+/*
+	Images hosted on localhost
+*/
+app.get('/images/linux', (req, res) => res.sendFile("C:/Users/david/Documents/College Work/Third Year/Software Engineering/visualisation/src/views/images/linux.png"));
+app.get('/images/react', (req, res) => res.sendFile("C:/Users/david/Documents/College Work/Third Year/Software Engineering/visualisation/src/views/images/react.png"));
+app.get('/images/go', (req, res) => res.sendFile("C:/Users/david/Documents/College Work/Third Year/Software Engineering/visualisation/src/views/images/go.png"));
+app.get('/images/node', (req, res) => res.sendFile("C:/Users/david/Documents/College Work/Third Year/Software Engineering/visualisation/src/views/images/nodejs.jpg"));
+app.get('/images/vscode', (req, res) => res.sendFile("C:/Users/david/Documents/College Work/Third Year/Software Engineering/visualisation/src/views/images/vscode.png"));
+
 app.listen(port, () => console.log(`Visualisation application listening on port ${port}! Go to http://localhost:3000`))
