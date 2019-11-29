@@ -1,6 +1,14 @@
 <html lang="en">
   <style>
 
+  p {
+    color: green;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: xx-large;
+  }
+
   .svg {
     padding: 50px 20px;
   }
@@ -32,7 +40,7 @@
   <div
    style="
       top: 0;
-      left: 550;
+      left: 900;
       position: absolute;
       z-index: 1;
       visibility: show;">
@@ -40,8 +48,8 @@
 </div>
   <div
    style="
-      top: 475;
-      left: 500;
+      top: 550;
+      left: 700;
       position: absolute;
       z-index: 1;
       visibility: show;">
@@ -53,9 +61,9 @@
 
 <script>
 // Set the dimensions of the canvas / graph
-var margin = {top: 30, right: 20, bottom: 200, left: 100},
-  width = 1000 - margin.left - margin.right,
-  height = 500 - margin.top - margin.bottom;
+var margin = {top: 30, right: 200, bottom: 200, left: 200},
+  width = 1500 - margin.left - margin.right,
+  height = 600 - margin.top - margin.bottom;
 
 // Set the ranges
 var x = d3.scale.ordinal().rangeRoundBands([0, width], .05);

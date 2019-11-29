@@ -2,11 +2,11 @@
     "repository_languages": [
         {
             "language": "JavaScript",
-            "value": 8029822
+            "value": 8032196
         },
         {
             "language": "C++",
-            "value": 4484839
+            "value": 4485888
         },
         {
             "language": "Python",
@@ -54,185 +54,193 @@
         }
     ],
     "contributors_languages": [
-        {
-            "language": "Java",
-            "value": 183102545
-        },
-        {
-            "language": "Go",
-            "value": 44057754
-        },
-        {
-            "language": "Shell",
-            "value": 944656
-        },
-        {
-            "language": "Dockerfile",
-            "value": 12554
-        },
-        {
-            "language": "JavaScript",
-            "value": 14055612
-        },
-        {
-            "language": "HTML",
-            "value": 4936876
-        },
-        {
-            "language": "CSS",
-            "value": 2289113
-        },
-        {
-            "language": "XSLT",
-            "value": 7928895
-        },
-        {
-            "language": "XQuery",
-            "value": 452
-        },
-        {
-            "language": "FreeMarker",
-            "value": 39078
-        },
-        {
-            "language": "Groovy",
-            "value": 41674
-        },
-        {
-            "language": "Ruby",
-            "value": 29699
-        },
-        {
-            "language": "C++",
-            "value": 5398362
-        },
-        {
-            "language": "C",
-            "value": 2687018
-        },
-        {
-            "language": "Python",
-            "value": 2833829
-        },
-        {
-            "language": "CMake",
-            "value": 113993
-        },
-        {
-            "language": "Batchfile",
-            "value": 181126
-        },
-        {
-            "language": "TSQL",
-            "value": 30600
-        },
-        {
-            "language": "TypeScript",
-            "value": 357231
-        },
-        {
-            "language": "TeX",
-            "value": 19322
-        },
-        {
-            "language": "TLA",
-            "value": 14997
-        },
-        {
-            "language": "Roff",
-            "value": 19262
-        },
-        {
-            "language": "Makefile",
-            "value": 67321
-        },
-        {
-            "language": "Thrift",
-            "value": 131414
-        },
-        {
-            "language": "DTrace",
-            "value": 37661
-        },
-        {
-            "language": "Emacs Lisp",
-            "value": 14357
-        },
-        {
-            "language": "Perl",
-            "value": 49212
-        },
-        {
-            "language": "R",
-            "value": 6895
-        },
-        {
-            "language": "Kotlin",
-            "value": 166032
-        },
-        {
-            "language": "Scala",
-            "value": 17317309
-        },
-        {
-            "language": "Swift",
-            "value": 1396698
-        },
-        {
-            "language": "Assembly",
-            "value": 4325664
-        },
-        {
-            "language": "Logos",
-            "value": 1248
-        },
-        {
-            "language": "RPC",
-            "value": 1163
-        },
-        {
-            "language": "Awk",
-            "value": 450
-        },
-        {
-            "language": "Fortran",
-            "value": 394
-        },
-        {
-            "language": "AspectJ",
-            "value": 69964
-        },
-        {
-            "language": "RAML",
-            "value": 38085
-        },
-        {
-            "language": "ANTLR",
-            "value": 31940
-        },
-        {
-            "language": "SystemVerilog",
-            "value": 5465
-        },
-        {
-            "language": "NewLisp",
-            "value": 4473
-        },
-        {
-            "language": "Perl 6",
-            "value": 4446
-        },
-        {
-            "language": "Gherkin",
-            "value": 3552
-        },
-        {
-            "language": "Smarty",
-            "value": 1142
-        },
-        {
-            "language": "PLpgSQL",
-            "value": 625
-        }
-    ]
+    {
+        "language": "JavaScript",
+        "value": 356654886
+    },
+    {
+        "language": "C++",
+        "value": 264689105
+    },
+    {
+        "language": "HTML",
+        "value": 244077114
+    },
+    {
+        "language": "C",
+        "value": 226118349
+    },
+    {
+        "language": "Java",
+        "value": 110134307
+    },
+    {
+        "language": "Python",
+        "value": 93946487
+    },
+    {
+        "language": "Rust",
+        "value": 74092597
+    },
+    {
+        "language": "TypeScript",
+        "value": 68211508
+    },
+    {
+        "language": "Shell",
+        "value": 64584630
+    },
+    {
+        "language": "Assembly",
+        "value": 47524556
+    },
+    {
+        "language": "Makefile",
+        "value": 47256642
+    },
+    {
+        "language": "Go",
+        "value": 46679760
+    },
+    {
+        "language": "C#",
+        "value": 25359226
+    },
+    {
+        "language": "Ruby",
+        "value": 17897984
+    },
+    {
+        "language": "PHP",
+        "value": 7494958
+    },
+    {
+        "language": "CSS",
+        "value": 6831270
+    },
+    {
+        "language": "Objective-C",
+        "value": 6260563
+    },
+    {
+        "language": "D",
+        "value": 5548018
+    },
+    {
+        "language": "Kotlin",
+        "value": 4687815
+    },
+    {
+        "language": "OCaml",
+        "value": 3391827
+    },
+    {
+        "language": "Perl",
+        "value": 3257891
+    },
+    {
+        "language": "M4",
+        "value": 2571763
+    },
+    {
+        "language": "Scheme",
+        "value": 2281119
+    },
+    {
+        "language": "Jupyter Notebook",
+        "value": 2030140
+    },
+    {
+        "language": "CoffeeScript",
+        "value": 1963673
+    },
+    {
+        "language": "ASP",
+        "value": 1689079
+    },
+    {
+        "language": "DTrace",
+        "value": 1618850
+    },
+    {
+        "language": "LLVM",
+        "value": 1376378
+    },
+    {
+        "language": "Roff",
+        "value": 1289970
+    },
+    {
+        "language": "Yacc",
+        "value": 1049429
+    },
+    {
+        "language": "Groff",
+        "value": 1021746
+    },
+    {
+        "language": "CMake",
+        "value": 990467
+    },
+    {
+        "language": "Lua",
+        "value": 970763
+    },
+    {
+        "language": "Batchfile",
+        "value": 877507
+    },
+    {
+        "language": "POV-Ray SDL",
+        "value": 836987
+    },
+    {
+        "language": "PowerShell",
+        "value": 791608
+    },
+    {
+        "language": "Visual Basic",
+        "value": 696307
+    },
+    {
+        "language": "R",
+        "value": 681033
+    },
+    {
+        "language": "Tcl",
+        "value": 541309
+    },
+    {
+        "language": "SuperCollider",
+        "value": 533884
+    },
+    {
+        "language": "Lex",
+        "value": 524885
+    },
+    {
+        "language": "Puppet",
+        "value": 459114
+    },
+    {
+        "language": "Mask",
+        "value": 433378
+    },
+    {
+        "language": "Emacs Lisp",
+        "value": 415464
+    },
+    {
+        "language": "Ada",
+        "value": 388272
+    },
+    {
+        "language": "TeX",
+        "value": 362708
+    },
+    {
+        "language": "Objective-C++",
+        "value": 360920
+    }
+]
 }

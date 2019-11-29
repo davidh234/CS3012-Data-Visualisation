@@ -42,69 +42,117 @@
         }
     ],
     "contributors_languages": [
-        {
-            "language": "Clojure",
-            "value": 1044847
-        },
-        {
-            "language": "Java",
-            "value": 4855744
-        },
-        {
-            "language": "Shell",
-            "value": 18320
-        },
-        {
-            "language": "JavaScript",
-            "value": 64200995
-        },
-        {
-            "language": "HTML",
-            "value": 6760
-        },
-        {
-            "language": "CSS",
-            "value": 60953
-        },
-        {
-            "language": "Go",
-            "value": 52419
-        },
-        {
-            "language": "Python",
-            "value": 181583
-        },
-        {
-            "language": "Makefile",
-            "value": 3616
-        },
-        {
-            "language": "Emacs Lisp",
-            "value": 82239
-        },
-        {
-            "language": "Haskell",
-            "value": 4796
-        },
-        {
-            "language": "Lua",
-            "value": 4633
-        },
-        {
-            "language": "Vim script",
-            "value": 2291
-        },
-        {
-            "language": "Scheme",
-            "value": 717
-        },
-        {
-            "language": "YASnippet",
-            "value": 58
-        },
-        {
-            "language": "LiveScript",
-            "value": 6103
-        }
-    ]
+    {
+        "language": "JavaScript",
+        "value": 1999764332
+    },
+    {
+        "language": "TypeScript",
+        "value": 148773923
+    },
+    {
+        "language": "CSS",
+        "value": 86403014
+    },
+    {
+        "language": "C++",
+        "value": 53648556
+    },
+    {
+        "language": "Python",
+        "value": 37488283
+    },
+    {
+        "language": "C",
+        "value": 24323929
+    },
+    {
+        "language": "Java",
+        "value": 23995332
+    },
+    {
+        "language": "HTML",
+        "value": 22945774
+    },
+    {
+        "language": "OCaml",
+        "value": 22187124
+    },
+    {
+        "language": "Objective-C",
+        "value": 19782218
+    },
+    {
+        "language": "Ruby",
+        "value": 17959577
+    },
+    {
+        "language": "Jupyter Notebook",
+        "value": 5194029
+    },
+    {
+        "language": "PHP",
+        "value": 5193768
+    },
+    {
+        "language": "CoffeeScript",
+        "value": 4378727
+    },
+    {
+        "language": "Objective-C++",
+        "value": 3966593
+    },
+    {
+        "language": "C#",
+        "value": 3907433
+    },
+    {
+        "language": "Groovy",
+        "value": 3599831
+    },
+    {
+        "language": "WebAssembly",
+        "value": 2279090
+    },
+    {
+        "language": "ActionScript",
+        "value": 1594941
+    },
+    {
+        "language": "Shell",
+        "value": 1589721
+    },
+    {
+        "language": "Clojure",
+        "value": 1578911
+    },
+    {
+        "language": "Vue",
+        "value": 1468001
+    },
+    {
+        "language": "Scala",
+        "value": 1404737
+    },
+    {
+        "language": "Vim script",
+        "value": 1378705
+    },
+    {
+        "language": "Dart",
+        "value": 1127720
+    },
+    {
+        "language": "LiveScript",
+        "value": 1000792
+    },
+    {
+        "language": "PostScript",
+        "value": 803808
+    },
+    {
+        "language": "Go",
+        "value": 798664
+    }
+]
 }

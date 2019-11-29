@@ -54,25 +54,129 @@
         }
     ],
     "contributors_languages": [
-        {
-            "language": "Go",
-            "value": 1387779
-        },
-        {
-            "language": "C",
-            "value": 71760
-        },
-        {
-            "language": "Shell",
-            "value": 1910
-        },
-        {
-            "language": "Assembly",
-            "value": 1527
-        },
-        {
-            "language": "Makefile",
-            "value": 452
-        }
-    ]
+    {
+        "language": "C",
+        "value": 3965410602
+    },
+    {
+        "language": "Go",
+        "value": 1390660667
+    },
+    {
+        "language": "C++",
+        "value": 459006624
+    },
+    {
+        "language": "Assembly",
+        "value": 215275132
+    },
+    {
+        "language": "Python",
+        "value": 169493447
+    },
+    {
+        "language": "Java",
+        "value": 135116493
+    },
+    {
+        "language": "HTML",
+        "value": 111796717
+    },
+    {
+        "language": "Shell",
+        "value": 97542594
+    },
+    {
+        "language": "Ruby",
+        "value": 92782187
+    },
+    {
+        "language": "D",
+        "value": 79141473
+    },
+    {
+        "language": "LLVM",
+        "value": 69211829
+    },
+    {
+        "language": "TypeScript",
+        "value": 58512636
+    },
+    {
+        "language": "Makefile",
+        "value": 46057959
+    },
+    {
+        "language": "Perl",
+        "value": 43449092
+    },
+    {
+        "language": "JavaScript",
+        "value": 42765738
+    },
+    {
+        "language": "Rust",
+        "value": 27899427
+    },
+    {
+        "language": "Objective-C",
+        "value": 25620735
+    },
+    {
+        "language": "Groff",
+        "value": 19286138
+    },
+    {
+        "language": "Roff",
+        "value": 10676770
+    },
+    {
+        "language": "TeX",
+        "value": 10609057
+    },
+    {
+        "language": "PHP",
+        "value": 9020984
+    },
+    {
+        "language": "PostScript",
+        "value": 8188437
+    },
+    {
+        "language": "Scheme",
+        "value": 6738705
+    },
+    {
+        "language": "CMake",
+        "value": 6220532
+    },
+    {
+        "language": "CSS",
+        "value": 4823110
+    },
+    {
+        "language": "Scilab",
+        "value": 4430310
+    },
+    {
+        "language": "Cuda",
+        "value": 3404245
+    },
+    {
+        "language": "M4",
+        "value": 3249419
+    },
+    {
+        "language": "Emacs Lisp",
+        "value": 2776863
+    },
+    {
+        "language": "Yacc",
+        "value": 2728482
+    },
+    {
+        "language": "Objective-C++",
+        "value": 2545735
+    }
+]
 }
